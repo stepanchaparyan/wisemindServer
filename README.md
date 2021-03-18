@@ -15,7 +15,9 @@ $ git clone ...
 $ npm install
 $ npm start
 ```
-# Server is running on heroku https://wisemind-server.herokuapp.com
+# Server is running on heroku
 ```
+https://wisemind-server.herokuapp.com
+
 For example - https://wisemind-server.herokuapp.com/api/us/menus
 ```
