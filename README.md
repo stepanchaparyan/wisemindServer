@@ -19,5 +19,5 @@ $ npm start
 ```
 https://wise-mind-server.herokuapp.com/
 
-For example - https://wise-mind-server.herokuapp.com/api/us/menus
+For example - https://wise-mind-server.herokuapp.com/en/menus
 ```

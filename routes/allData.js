@@ -17,7 +17,7 @@ const getData = (model, lang = 'en') => {
 };
 
 // // get Home data
-router.get('/us/home/texts', getData(Hometext));
+router.get('/en/home/texts', getData(Hometext));
 router.get('/es/home/texts', getData(Hometext));
 router.get('/fr/home/texts', getData(Hometext));
 router.get('/de/home/texts', getData(Hometext));
@@ -25,7 +25,7 @@ router.get('/ru/home/texts', getData(Hometext));
 router.get('/am/home/texts', getData(Hometext));
 
 // // get Navbar data
-router.get('/us/menus', getData(Navbar));
+router.get('/en/menus', getData(Navbar));
 router.get('/es/menus', getData(Navbar, 'es'));
 router.get('/fr/menus', getData(Navbar));
 router.get('/de/menus', getData(Navbar));
@@ -33,7 +33,7 @@ router.get('/ru/menus', getData(Navbar));
 router.get('/am/menus', getData(Navbar));
 
 // get Footer data
-router.get('/us/footer', getData(Footer));
+router.get('/en/footer', getData(Footer));
 router.get('/es/footer', getData(Footer));
 router.get('/fr/footer', getData(Footer));
 router.get('/de/footer', getData(Footer));
